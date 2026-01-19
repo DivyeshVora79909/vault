@@ -1,0 +1,9 @@
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# The encrypted vault files (DO NOT COMMIT THESE)
+*.svault
+
+# Log files
+*.log
