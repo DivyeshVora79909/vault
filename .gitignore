@@ -7,3 +7,8 @@ Thumbs.db
 
 # Log files
 *.log
+# Node
+node_modules/
+
+# Test scratch files
+test/.tmp-*

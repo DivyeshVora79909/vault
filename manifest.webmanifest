@@ -1,0 +1,20 @@
+{
+  "name": "Vault — offline file encryption",
+  "short_name": "Vault",
+  "description": "Zero-knowledge, offline file encryption that runs entirely in your browser.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b0e14",
+  "theme_color": "#0b0e14",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "file_handlers": [
+    {
+      "action": "./index.html",
+      "accept": { "application/octet-stream": [".svault"] }
+    }
+  ]
+}
